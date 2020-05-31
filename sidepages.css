@@ -1,0 +1,57 @@
+a:hover {
+    text-decoration: none;
+    color: #0047ab;
+}
+
+#mainname {
+    margin-left: 10px;
+    text-align: center;
+    display:inline-block;
+    color: #0047ab;
+}
+
+#rightbutton {
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display:inline-block;
+    color: #828282;
+}
+
+.othertopbuttons {
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    color: #828282;
+}
+
+#selfimage {
+    max-height: 33%;
+    max-width: 33%;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.leftimage {
+    width: 50%;
+    height: 50%;
+}
+
+.rightimage {
+    width: 50%;
+    height: 50%;
+}
+
+ul {
+    list-style-type: circle;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
