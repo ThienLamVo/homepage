@@ -7,20 +7,27 @@
         <link rel="stylesheet" href="sidepages.css"/>
     </head>
     <body>
-        <div>
+        <div id="heading">
             <h1>
                 <a href="index.html" id="mainname" class="float-left">Thien-Lam Vo</a>
             </h1>
             <a href="about.html" id="rightbutton" class="float-right">About</a>
-            <a href="resume.html" class="float-right othertopbuttons">Resume</a>
-            <a href="photography.html" class="float-right othertopbuttons">Photography</a>
+            <a href="resume.html" id="rightbutton2" class="float-right othertopbuttons">Resume</a>
+            <a href="photography.html" id="rightbutton3" class="float-right othertopbuttons">Photography</a>
         </div>
         <br>
         <br>
         <hr>
+        <h2 class="title">Vo-tography</h2>
+        <div id="appearance">
+            <button type="button" onclick="presentation(); return false;">Presentation Mode</button>
+            <button type="button" onclick="regular(); return false;">Regular Mode</button>
+        </div>
         <a href="https://photos.app.goo.gl/dLuK7dMk5YJuwukRA" target="_blank"><img src="SASEGalaMayJet.JPG" class="leftimage float-left" alt="May and Jet at SASE Gala"></a>
         <a href="https://photos.app.goo.gl/iybnwWNVNr19mtZb7" target="_blank"><img src="Sunflowers.JPG" class="rightimage float-right" alt="Sunflower Fields"></a>
         <a href="https://photos.app.goo.gl/Xvs1TGugFr5Ppr8i8" target="_blank"><img src="Picnic.JPG" class="leftimage float-left" alt="VT Picnic 2019"></a>
         <a href="https://photos.app.goo.gl/AjKwMQ7gT1HDExes5" target="_blank"><img src="NewYorkCityThien.JPG" class="rightimage float-right" alt="Photo of me in New York"></a>
+        <h3 id="setup">I have a simple set-up consisting of a Nikon D3400 and 35mm f/1.8 Prime Lens.</h3>
+        <script src="homepage.js"></script>
     </body>
 </html>

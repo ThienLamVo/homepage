@@ -10,12 +10,23 @@ a:hover {
     color: #0047ab;
 }
 
+#mainname:hover {
+    text-decoration: none;
+    color: #828282;
+}
+
+
 #rightbutton {
     padding: 10px;
     margin-right: 10px;
     text-align: center;
     display:inline-block;
     color: #828282;
+}
+
+#rightbutton:hover {
+    text-decoration: none;
+    color: #0047ab;
 }
 
 .othertopbuttons {

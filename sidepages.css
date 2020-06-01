@@ -43,15 +43,58 @@ a:hover {
     height: 50%;
 }
 
+.title {
+    text-align: center;
+}
+
+#appearance {
+    display: block; 
+    text-align: center;
+}
+
+#setup {
+    text-align: center;
+}
+
+#resume {
+    text-align: center;
+}
+
 ul {
     list-style-type: circle;
-    text-align: center;
 }
 
-h2 {
-    text-align: center;
+#courses {
+    columns: 2;
+    width: 75%;
 }
 
-h3 {
-    text-align: center;
+#bodytext {
+    margin-left: 10px;
+}
+
+.firstlevel {
+    list-style-type: circle;
+    display: block;
+    font-size: 1.17em;
+    width: 75%;
+}
+
+.secondlevel {
+    list-style-type: square;
+    display: block;
+    font-size: 1em;
+    width: 75%;
+}
+
+.thirdlevel {
+    list-style-type: circle;
+    display: block;
+    font-size: .83em;
+    width: 75%;
+}
+
+#sports {
+    columns: 3;
+    width: 75%;
 }

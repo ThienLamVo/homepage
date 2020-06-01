@@ -21,16 +21,21 @@
         <div>
             <img src="Thien-Lam.JPG" id="selfimage" class="float-left" alt="Picture of Thien-Lam Vo">
             <div style="display: inline;">
+                <form onsubmit="hello(); return false;" id="nameForm">
+                    <input type="text" id="name" placeholder="Name Here">
+                    <input type="submit">
+                </form>
                 <h2>
-                    Hi, I am Thien-Lam and this is the website I made.
+                    <span id="result">Hi</span>, I am Thien-Lam and this is the website I made.
                 </h2>
                 <p>
                     I am a Computer Engineering student at Virginia Tech <em>Class of 2022</em>.<br>
                     Current primary focus in Software Systems with secondary in Cybersecurity.<br>
-                    Whether it is UX, Back-End, Front-End, Coding, games, or else, I am interested in it all!<br>
+                    Whether it is UX, Back-End, Front-End, Coding, games, or anything else, I am interested in it all!<br>
                     Currently working in C++ and Python making various games and other personal projects.<br>
                 </p>
             </div>
         </div>
+        <script src="homepage.js"></script>
     </body>
 </html>
