@@ -1,16 +1,16 @@
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {  
-    box-shadow: inset 0 0 5px grey; 
+    box-shadow: inset 0 0 5px white; 
     border-radius: 10px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: white; 
     border-radius: 10px;
 }
 
@@ -27,48 +27,28 @@ html {
     color: #FFFFFF;
 }
 
-.navigation-bar {
-    width: 75px;
-}
-
-main {
-    margin-top: 75px;
+main, a {
     color: #FFFFFF;
 }
 
-a {
-    color: #000000;
-}
-
-hr {
-    margin-top: 0;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
 #brand {
-    font-size: 175%;
+    font-size: 200%;
 }
 
 .header-links {
-    font-size: 125%;
+    font-size: 150%;
+}
+
+#presentation {
+    text-align: center;
+}
+
+.sections {
+    padding-bottom: 10vh;
 }
 
 footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-
-.image {
-    width: 100%;
-    height: auto;
-}
-
-header {
-    text-align: center;
-}
-
-#appearance {
-    text-align: center;
 }
