@@ -8,8 +8,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/homepage.css"/>
     </head>
-    <body class="bg-dark">
-        <nav class="navbar navbar-expand-sm navbar-dark" role="navigation">
+    <body>
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md border-bottom border-dark darkgreybg">
             <a class="navbar-brand" id="brand" href="./index.html">Thien-Lam Vo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -18,174 +18,290 @@
                 <ul class="navbar-nav header-links">
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#photography">Photography</a></li>    
+                    <li class="nav-item"><a class="nav-link" href="#photography">Photography</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>    
                 </ul>
             </div>
         </nav>
 
-        <main>
-            <img src="./files/Thien-Lam.JPG" class="img-fluid mx-auto d-block" alt="Picture of me, Thien-Lam Vo">
+        <main class="greybg">
+            <img src="./files/Thien-Lam.JPG" class="img-fluid" alt="Picture of me, Thien-Lam Vo">
+            <div class="invisible spacer"></div>
+
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-8 mx-auto text-center text-wrap">
+                    <div class="invisible col-12 col-md-3"></div>
+                    <div class="col-12 col-md-6 contentbg rounded-lg text-center text-wrap bluebg">
                         <form onsubmit="hello(); return false;" id="nameForm">
                             <input type="text" id="name" placeholder="Name Here">
                             <input type="submit">
                         </form>
-                    <header>
-                        <h1>
-                            <span id="result">Hi</span>, I am Thien-Lam and this is the website I made.
-                        </h1>
-                    </header><br>
-                        <p>
-                        I am a Computer Engineering student at Virginia Tech <em>Class of 2022</em>.<br><br>
-                        Currently working on Web Development for the first time such as this website.<br><br>
-                        Also working in C, C++, and Python making various games and other personal projects.<br><br>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-4">
-                        <ul id="about" class="list-unstyled text-center">
-                            <li><h2>How I Strive to Live</h2></li>
-                            <li>Be yourself</li><br>
-                            <li>Learn every day</li><br>
-                            <li>Stay in good shape</li><br>
-                            <li>Don't stress too much</li><br>
-                            <li>Set an example for others</li><br>
-                            <li>Help whenever you can help</li><br>
-                            <li>Don't be scared to ask for help</li><br>
-                            <li>Set high standards for yourself and others</li><br>
-                            <li>Value experiences over materialistic things</li><br>
-                            <li>Be nice to those you surround yourself with</li><br>
-                            <li>Be a better version of yourself every single day</li><br>
-                        </ul>
-                    </div>
-                    <div class="col-sm-4"></div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12">
                         <header>
-                            <h2 class="title text-center">This is my life:</h2>
-                        </header>  
+                            <h1>
+                                <span id="result">Hi</span>, I am Thien-Lam and this is the website I made.
+                            </h1>
+                        </header><br>
+                        <p>I am a Computer Engineering student at Virginia Tech <span class="font-italic">Class of 2022</span>.
+                        Currently working on Web Development for the first time such as this website.
+                        Also working in C, C++, and Python making various games and other personal projects.</p>
                     </div>
+                    <div class="invisible col-12 col-md-3"></div>
                 </div>
-                <div class="row justify-content-center sections">
-                    <div class="col-md-4">
-                        <img src="./files/penpaper.png" width="300px" class="img-rounded img-fluid my-auto mx-auto d-block">
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Academics/Professional</h3>
-                        <ul class="list-unstyled">
-                            <li>Major: Software Systems Primary with Cybersecurity Secondary</li><br>
-                            <li>Relevant Courses Taken:</li>
-                            <ul>
-                                <li>Embedded Systems</li>
-                                <li>Signals and Systems</li>
-                                <li>Fundamentals of Digital Systems</li>
-                                <li>Circuits and Devices</li>
-                                <li>Harvard CS50</li>
-                            </ul><br>
-                            <li>Coded in C, C++, and Python</li><br>
-                            <li>Society of Asian Scientists and Engineers</li>
-                            <ul>
-                                <li>President (2020 - 2021)</li>
-                                <li>Secretary (2019 - 2020)</li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row justify-content-center sections">
-                    <div class="col-md-4">
-                        <img src="./files/groupicon.png" width="300px" class="img-rounded img-fluid my-auto mx-auto d-block">
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Social</h3>
-                        <ul class="list-unstyled">
-                            <li>Other Organizations</li>
-                            <ul>
-                                <li>Vietnamese Student Association</li>
-                                <li>VT Intramural Flag Football</li>
-                                <li>Filipino American Student Association</li>
-                            </ul>
-                            <li>Activities</li>
-                            <ul>
-                                <li>Puzzles</li>
-                                <li>Hiking</li>
-                                <li>Friends</li>
-                                <li>Amateur Photography</li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row justify-content-center sections">
-                    <div class="col-md-4">
-                        <img src="./files/usericon.png" width="300px" class="img-rounded img-fluid my-auto mx-auto d-block">
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Personal</h3>
-                        <ul class="list-unstyled">
-                            <li>College Sports/NFL</li>
-                            <ul>
-                                <li>Virginia Tech Hokies</li>
-                                <li>Michigan State Spartans</li>
-                                <li>Arizona Cardinals</li>
-                            </ul>
-                            <li>Games</li>
-                            <ul>
-                                <li>League of Legends</li>
-                                <li>Nintendo Switch</li>
-                                <li>Board Games</li>
-                            </ul>
-                        </ul>
-                    </div>
-                </div>
-                
+
+                <div class="invisible spacer" id="about"></div>
                 <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <div id="resume">
-                            <header>
-                                <h2 id="resume">
-                                    Attached is my <a href="./files/ThienLamVoResume.pdf" >resume</a>.
-                                </h2>               
-                            </header>
-                        </div>                        
-                    </div>
-                </div>
-                <div class="row no-gutters text-center">
-                    <div class="col-sm-12">
-                        <header>
-                            <h2 id="photography" class="title">My photography</h2>
+                    <div class="invisible col-12 col-md-4"></div>
+                    <div class="col-12 col-md-4">
+                        <header class="bluebg rounded-lg text-center border border-info">
+                            <h2>What Are My Ideals?</h2>
                         </header>
-                        <div id="presentation">
-                            <button type="button" onclick="presentation(); return false;">Presentation Mode</button>
-                            <button type="button" onclick="regular(); return false;">Regular Mode</button>
-                        </div>
                     </div>
+                    <div class="invisible col-12 col-md-4"></div>
                 </div>
+                <div class="row title"></div>
                 <div class="row">
-                    <div class="col-sm-4">
-                        <a href="https://photos.app.goo.gl/dLuK7dMk5YJuwukRA" target="_blank"><img src="./files/SASEGalaMayJet.JPG" class="img-fluid" alt="May and Jet at SASE Gala"></a>
-                        <a href="https://photos.app.goo.gl/iybnwWNVNr19mtZb7" target="_blank"><img src="./files/Sunflowers.JPG" class="img-fluid" alt="Sunflower Fields"></a>
+                    <div class="invisible col-12 col-md-3"></div>
+                    <div class="col-12 col-md-6 bluebg rounded-lg">
+                        <ul class="list-unstyled text-center linespacing text-wrap">
+                            <li>Be yourself</li>
+                            <li>Stay in good shape</li>
+                            <li>Set an example for others</li>
+                            <li>Value experiences over materialistic things</li>
+                            <li>Don't stress too much and just enjoy the moment</li>
+                            <li>Set high standards for yourself and those in your life</li>
+                            <li>Surround yourself with those who want you to suceed</li>
+                            <li>Help whenever you can help and don't be scared to ask for help</li>
+                            <li>Learn every day and become a better version of yourself every single day</li>
+                        </ul>
                     </div>
-                    <div class="col-sm-4">
-                        <a href="https://photos.app.goo.gl/Xvs1TGugFr5Ppr8i8" target="_blank"><img src="./files/Picnic.JPG" class="img-fluid" alt="VT Picnic 2019"></a>
-                        <a href="https://photos.app.goo.gl/AjKwMQ7gT1HDExes5" target="_blank"><img src="./files/NewYorkCityThien.JPG" class="img-fluid" alt="Photo of me in New York"></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="https://photos.app.goo.gl/JUq3jeeaz47StNNo6" target="_blank"><img src="./files/SimonClaytorLake.JPG" class="img-fluid" alt="Photo of my friend Simon at Claytor Lake"></a>
-                        <a href="https://flic.kr/s/aHsmDMX8ZY" target="_blank"><img src="./files/DogFarmersMarket.JPG" class="img-fluid" alt="Dog at a Farmers Market"></a>
-                    </div>                    
+                    <div class="invisible col-12 col-md-3"></div>
                 </div>
+
+                <div class="invisible spacer"></div>
+                <div class="contents">
+                    <div class="row">
+                        <div class="invisible col-md-5"></div>
+                        <div class="col-md-2">
+                            <header class="bluebg rounded-lg text-center border border-info">
+                                <h2>This is my life:</h2>
+                            </header>  
+                            <div class="title"></div>
+                        </div>
+                        <div class="invisible col-md-5"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="invisible col-12 col-md-2"></div>
+                        <div class="col-12 col-md-2 text-center">
+                            <img src="./files/penpaper.png" height="200px" width="200px" class="rounded-lg img-fluid bluebg">
+                        </div>
+                        <div class="invisible col-12 col-md-2"></div>
+                        <div class="invisible col-12 col-md-1"></div>
+                        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center rounded-lg bluebg text-wrap">
+                            <h3>Academics / Professional</h3>
+                            <ul class="list-unstyled">
+                                <li>Major: Software Systems Primary with Cybersecurity Secondary</li><br>
+                                <li>Relevant Courses Taken:</li>
+                                <ul class="twocols">
+                                    <li>Data Structures</li>
+                                    <li>Computer Organization</li>
+                                    <li>Embedded Systems</li>
+                                    <li>Signals and Systems</li>
+                                    <li>Harvard CS50</li>
+                                    <li>Fundamentals of Digital Systems</li>
+                                    <li>Circuits and Devices</li>
+                                </ul><br>
+                                <li>Languages/Programs Known:</li>
+                                <ul class="twocols">
+                                    <li>C++</li>
+                                    <li>C</li>
+                                    <li>Python</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul><br>
+                                <li>Society of Asian Scientists and Engineers:</li>
+                                <ul>
+                                    <li>President (2020 - Present)</li>
+                                    <li>Secretary (2019 - 2020)</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="invisible col-md-1"></div>
+                    </div>
+                    <div class="invisible spacer"></div>
+
+                    <div class="row">
+                        <div class="invisible col-12 col-md-2"></div>
+                        <div class="col-12 col-md-2 text-center">
+                            <img src="./files/groupicon.png" height="200px" width="200px" class="rounded-lg img-fluid bluebg">
+                        </div>
+                        <div class="invisible col-12 col-md-2"></div>
+                        <div class="invisible col-12 col-md-1"></div>
+                        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center rounded-lg bluebg text-wrap">
+                            <h3>Social</h3>
+                            <ul class="list-unstyled">
+                                <li>Other Organizations</li>
+                                <ul>
+                                    <li>Vietnamese Student Association</li>
+                                    <li>VT Intramural Flag Football</li>
+                                    <li>Filipino American Student Association</li>
+                                </ul>
+                                <li>Activities</li>
+                                <ul>
+                                    <li>Puzzles</li>
+                                    <li>Hiking</li>
+                                    <li>Friends</li>
+                                    <li>Amateur Photography</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="invisible col-12 col-md-1"></div>
+                    </div>
+                    <div class="invisible spacer"></div>
+
+                    <div class="row">
+                        <div class="invisible col-12 col-md-2"></div>
+                        <div class="col-12 col-md-2 text-center">
+                            <img src="./files/usericon.png" height="200px" width="200px" class="rounded-lg img-fluid bluebg">
+                        </div>
+                        <div class="invisible col-12 col-md-2"></div>
+                        <div class="invisible col-12 col-md-1"></div>
+                        <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center rounded-lg bluebg text-wrap">
+                            <h3>Personal</h3>
+                            <ul class="list-unstyled">
+                                <li>College Sports/NFL</li>
+                                <ul>
+                                    <li>Virginia Tech Hokies</li>
+                                    <li>Michigan State Spartans</li>
+                                    <li>Arizona Cardinals</li>
+                                </ul>
+                                <li>Games</li>
+                                <ul>
+                                    <li>League of Legends</li>
+                                    <li>Nintendo Switch</li>
+                                    <li>Board Games</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="invisible col-md-2"></div>
+                    </div>
+                </div>
+
+                <div class="invisible spacer" id="resume"></div>
+                <div class="row">
+                    <div class="invisible col-12 col-md-4"></div>
+                    <div class="col-12 col-md-4 text-center">
+                        <header class="bluebg rounded-lg text-center border border-info">
+                            <h2>
+                                Attached is my <a href="./files/ThienLamVoResume.pdf" class="text-decoration-none"><span class="font-weight-bold">resume</span></a>.
+                            </h2>
+                        </header>
+                        <div class="title"></div>
+                    </div>
+                    <div class="invisible col-12 col-md-4"></div>
+                    <div class="invisible col-12 col-md-1"></div>
+                    <div class="col-12 col-md-10">
+                        <div class="embed-responsive embed-responsive-1by1">
+                            <iframe class="embed-responsive-item" src="./files/ThienLamVoResume.pdf"></iframe>
+                        </div>           
+                    </div>
+                    <div class="invisible col-12 col-md-1"></div>
+                </div>
+
+                <div class="invisible spacer" id="photography"></div>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="invisible col-12 col-md-3"></div>
+                        <div class="col-12 col-md-6">
+                            <header class="bluebg rounded-lg text-center border border-info">
+                                <h2>I also like to take photos time to time!</h2>
+                            </header>
+                        </div>
+                        <div class="invisible col-12 col-md-3"></div>
+                    </div>
+                    <div class="invisible title"></div>
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-4">
+                            <a href="https://photos.app.goo.gl/dLuK7dMk5YJuwukRA" target="_blank"><img src="./files/SASEGalaMayJet.JPG" class="img-fluid" alt="May and Jet at SASE Gala"></a>
+                            <a href="https://photos.app.goo.gl/iybnwWNVNr19mtZb7" target="_blank"><img src="./files/Sunflowers.JPG" class="img-fluid" alt="Sunflower Fields"></a>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="https://photos.app.goo.gl/Xvs1TGugFr5Ppr8i8" target="_blank"><img src="./files/Picnic.JPG" class="img-fluid" alt="VT Picnic 2019"></a>
+                            <a href="https://photos.app.goo.gl/AjKwMQ7gT1HDExes5" target="_blank"><img src="./files/NewYorkCityThien.JPG" class="img-fluid" alt="Photo of me in New York"></a>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <a href="https://photos.app.goo.gl/JUq3jeeaz47StNNo6" target="_blank"><img src="./files/SimonClaytorLake.JPG" class="img-fluid" alt="Photo of my friend Simon at Claytor Lake"></a>
+                            <a href="https://flic.kr/s/aHsmDMX8ZY" target="_blank"><img src="./files/DogFarmersMarket.JPG" class="img-fluid" alt="Dog at a Farmers Market"></a>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="invisible spacer" id="contact"></div>
+                <div class="text-center">
+                    <div class="row">
+                        <div class="invisible col-12 col-md-3"></div>
+                        <div class="col-12 col-md-6">
+                            <header class="bluebg rounded-lg text-center border border-info">
+                                <h2>Looking to contact me?</h2>
+                                <h3>I'd love to receive an email or Facebook message for any comments about the website or me!</h3>
+                            </header>
+                            <div class="invisible title"></div>
+                        </div>
+                        <div class="col-12 col-md-3"></div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-12 col-md-4 text-center">
+                            <a href="https://www.facebook.com/ThienLamV/" target="_blank">
+                                <img src="./files/fbicon.png" width="200px" height="200px" class="rounded-lg img-fluid bluebg">
+                            </a>
+                            <h3>Thien-Lam Vo</h3>
+                        </div>
+                        <div class="invisible col-12 col-md-4"></div>
+                        <div class="invisible col-12 col-md-4"></div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="invisible col-12 col-md-4"></div>
+                        <div class="col-12 col-md-4 text-center">
+                            <a href="mailto:thienlamvo@vt.edu?subject = Message Coming From Website">
+                                <img src="./files/emailicon.png" width="200px" height="200px" class="rounded-lg img-fluid bluebg">
+                            </a>
+                            <h3>Thienlamvo@vt.edu</h3>
+                        </div>
+                        <div class="invisible col-12 col-md-4"></div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="invisible col-12 col-md-4"></div>
+                        <div class="invisible col-12 col-md-4"></div>
+                        <div class="col-12 col-md-4 text-center">
+                            <a href="https://www.linkedin.com/in/thienlamvo/" target="_blank">
+                                <img src="./files/linkedinlogo.png" width="200px" height="200px" class="rounded-lg img-fluid bluebg">
+                            </a>
+                            <h3>ThienLamVo</h3>                        </div>
+                    </div>
+                </div>
+
+                <div class="spacer"></div>
+
+                <div class="row">
+                    <div class="invisible col-1 col-md-1"></div>
+                    <div class="col-10 col-md-10 rounded-lg  bluebg text-center text-wrap">
+                        <h3>Thank you so much for reaching the end of my website! It's a constant work-in-progress as I learn more web development skills and knowledge and can apply it here.</h3>
+                    </div>
+                    <div class="invisible col-1 col-md-1"></div>
+                </div>
+                <div class="spacer"></div>
+            </div>
         </main>
 
-        <footer>
+        <footer class="darkgreybg text-center">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <p>Made by me - Thien-Lam Vo</p>
-                    </div>                    
+                    <div class="invisible col-12 col-md-5"></div>
+                    <div class="col-12 col-md-2">
+                        <h3>Made by me</h3>
+                    </div>               
+                    <div class="invisible col-12 col-md-5"></div>
                 </div>
             </div>
         </footer>
