@@ -47,9 +47,6 @@ html {
     font-size: 150%;
 }
 
-.nav-item {
-    color: #000000;
-}
 
 
 /* Links */
@@ -59,10 +56,6 @@ h2 a {
 }
 
 a:hover {
-    color: #2F4550;
-}
-
-h2 a:hover {
     color: #2F4550;
 }
 
